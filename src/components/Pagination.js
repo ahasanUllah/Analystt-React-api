@@ -5,7 +5,7 @@ const Pagination = ({ totalContacts, contactPerPage, setCurrentPage, currentPage
    for (let i = 1; i <= Math.ceil(totalContacts / contactPerPage); i++) {
       pages.push(i);
    }
-   console.log(pages.length);
+
    return (
       <div>
          <div className="flex justify-center space-x-1 text-gray-800">

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 const Contact = ({ contact }) => {
-   const { name, company, city, address, email, phone } = contact;
-   console.log(name);
+   const { name, company, address, email, phone } = contact;
+
    const [toggleDetails, setToggleDetails] = useState(false);
    return (
       <>
